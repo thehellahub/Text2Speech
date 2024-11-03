@@ -5,18 +5,17 @@ Python 3.9.6
  
 Use requirements.txt file to install all required libraries 
  
- 
 :ie 
  
-python -m venv venv 
+   python -m venv venv 
 
-source venv/bin/activate 
+   source venv/bin/activate 
 
-pip install --upgrade pip 
+   pip install --upgrade pip 
 
-pip install -r requirements.txt  
+   pip install -r requirements.txt  
 
-python TextToSpeech.py 
- 
- 
-Enjoi :) 
+   python TextToSpeech.py 
+
+
+ Enjoi :)
