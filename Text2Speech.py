@@ -26,7 +26,7 @@ def read_file_to_string(file_path):
 if __name__ == "__main__":
 
     try:
-        os.remove(f'{current_dir)/output.wav')
+        os.remove(f'{current_dir}/output.wav')
     except:
         pass
 
