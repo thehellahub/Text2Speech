@@ -24,6 +24,12 @@ def read_file_to_string(file_path):
         return None
 
 if __name__ == "__main__":
+
+    try:
+        os.remove(f'{current_dir)/output.wav')
+    except:
+        pass
+
     current_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = f'{current_dir}/input.txt'  # Replace with your actual file path
     text = read_file_to_string(file_path)
